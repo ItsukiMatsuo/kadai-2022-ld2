@@ -1,4 +1,6 @@
-setTimeout(() => { console.log('Hello!') }, 3000)
-const timerId = setTimeout(() => {
-    console.log('Bye')
-   }, 5000)
+setTimeout(() => { 
+    console.log("Hello!") 
+    setTimeout(() => {
+        console.log("Bye")
+    }, 2000)
+}, 3000)
