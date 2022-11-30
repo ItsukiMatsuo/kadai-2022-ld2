@@ -1,0 +1,10 @@
+{
+   "string": "文字列",
+   "aaaa": 1234,
+   "bool": true,
+   "array": ["aaaa", "bbbb", "cccc", 123],
+   "object": {
+       "aaa": "bbb"
+   },
+   "null": null
+}
