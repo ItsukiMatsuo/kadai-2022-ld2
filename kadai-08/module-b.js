@@ -1,1 +1,4 @@
-module.exports = () => { console.log('Hello, B!') }
+const moduleB = () => {
+    console.log('Hello from B!') 
+}
+module.exports = moduleB
